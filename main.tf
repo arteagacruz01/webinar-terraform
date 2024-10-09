@@ -8,6 +8,7 @@ terraform {
   }
 }
 
+
 ####### modulos #######
 module "nginx_server_dev" {
     source = "./nginx_server_module"
